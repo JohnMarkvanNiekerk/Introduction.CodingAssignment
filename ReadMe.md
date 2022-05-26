@@ -20,7 +20,7 @@
 	- Test that we transform it into a usable form.
 	- Make sure that the application can process the data and that the output is correct.
 	- Test that we can run the processor with data and that it doesn't fail.
-if you have any questions send me a quick mail by clicking on the link => [JohnMark van Niekerk](mailto:jmvan.niekerk@mail.com)
+if you have any questions send me a quick mail by clicking on the link => [JohnMark van Niekerk](mailto:jmvan.niekerk@gmail.com)
 
 
 
