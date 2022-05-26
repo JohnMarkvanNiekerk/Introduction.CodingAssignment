@@ -1,11 +1,6 @@
 ﻿using Introduction.CodingAssignment.Data;
 using Introduction.CodingAssignment.OutputWriter;
-using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Introduction.CodingAssignment
 {
@@ -25,9 +20,7 @@ namespace Introduction.CodingAssignment
         public async Task ProcessAsync(string? userFile = null, string? tweetFile = null)
         {
 
-            var users = (await _dataReader.GetUsersAsync(userFile))
-                .OrderBy(x => x.UserName)
-                .Distinct();
+            var users = (await _dataReader.GetUsersAsync(userFile));
             
             var tweets = (await _dataReader.GetTweetsAsync(tweetFile));
 

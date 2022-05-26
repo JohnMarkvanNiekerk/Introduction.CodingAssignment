@@ -89,7 +89,9 @@ namespace Introduction.CodingAssignment.Data
 
             });
 
-            return bag;
+            return bag
+                .OrderBy(x => x.UserName)
+                .Distinct();
         }
 
         /// <summary>

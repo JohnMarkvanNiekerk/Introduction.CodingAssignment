@@ -35,7 +35,9 @@ namespace Introduction.CodingAssignment.OutputWriter
         public async Task WriteAsync(StringBuilder builder)
         {
             Console.WriteLine(builder.ToString());
-            Console.WriteLine("Press ");
+            Console.WriteLine("Press any key to continue...");
+            builder.Clear();
+            Console.ReadKey();
         }
 
         private void SanitiseInputs(User user, IEnumerable<Tweet> tweets)

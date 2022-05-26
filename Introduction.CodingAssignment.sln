@@ -3,16 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.CodingAssignment", "src\Introduction.CodingAssignment\Introduction.CodingAssignment.csproj", "{30A9EB8F-5003-46E1-9EF6-B22BF9350BBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction.CodingAssignment", "src\Introduction.CodingAssignment\Introduction.CodingAssignment.csproj", "{30A9EB8F-5003-46E1-9EF6-B22BF9350BBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.CodingAssignment.Data", "src\Introduction.CodingAssignment.Data\Introduction.CodingAssignment.Data.csproj", "{6CA658ED-1C64-472F-81AB-7393EA90AE80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction.CodingAssignment.Data", "src\Introduction.CodingAssignment.Data\Introduction.CodingAssignment.Data.csproj", "{6CA658ED-1C64-472F-81AB-7393EA90AE80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.CodingAssignment.Tests", "src\Introduction.CodingAssignment.Tests\Introduction.CodingAssignment.Tests.csproj", "{24283973-678D-4C19-A0DB-374579FC58D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduction.CodingAssignment.Tests", "src\Introduction.CodingAssignment.Tests\Introduction.CodingAssignment.Tests.csproj", "{24283973-678D-4C19-A0DB-374579FC58D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56ADB244-0AE2-4266-BB17-E0132D2A6A4A}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe.md = ReadMe.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.CondingAssignment.BusinessLogic", "Introduction.CondingAssignment.BusinessLogic\Introduction.CondingAssignment.BusinessLogic.csproj", "{CE107F6D-FD07-45A0-A100-1AF2A9B4953B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{24283973-678D-4C19-A0DB-374579FC58D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24283973-678D-4C19-A0DB-374579FC58D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24283973-678D-4C19-A0DB-374579FC58D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE107F6D-FD07-45A0-A100-1AF2A9B4953B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE107F6D-FD07-45A0-A100-1AF2A9B4953B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE107F6D-FD07-45A0-A100-1AF2A9B4953B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE107F6D-FD07-45A0-A100-1AF2A9B4953B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Introduction.CodingAssignment.Data\Introduction.CodingAssignment.Data.csproj" />
+    <ProjectReference Include="..\..\Introduction.CondingAssignment.BusinessLogic\Introduction.CondingAssignment.BusinessLogic.csproj" />
   </ItemGroup>
 
   <ItemGroup>
