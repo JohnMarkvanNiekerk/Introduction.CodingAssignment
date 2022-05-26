@@ -54,6 +54,7 @@ try
         }
         catch (Exception ex)
         {
+            Console.WriteLine("Sorry something went wrong, please try again!");
             Console.WriteLine(ex);
             process = false;
         }

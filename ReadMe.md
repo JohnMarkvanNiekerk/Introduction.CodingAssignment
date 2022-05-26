@@ -9,8 +9,15 @@
 - A window will open and the data will be processed and displayed the result on the console window
 
 ## Some things about the application 
-- We have some concerns about extracting and formatting raw data from the input files.
+- Some concerns about extracting and formatting raw data from the input files.
 	- Since getting the data includes an I/O action, this is done asynchronously and cached for better performance.
 	- We have some modeling that is needed to structure the data, and so need a module that can extract the raw data and transform it into a model that can be used for processing. 
-- In order to remain light we include singleton bindings between an interface and the class that implements it.
+- In order to remain light we include singleton bindings in the container
+
+## Running unit tests. 
+- Open the project in Visual Studio and Run all tests (Cntrl + R, T)
+	- Test that we can collect the test data, 
+	- That that we transform it into a usable form
+	- Make sure that the application can process the data and that the output is correct
+	- Test that we can run the processor with data and that it doesn't fail.
 
